@@ -1,0 +1,59 @@
+body{
+background-color: #DB7093;
+
+header {
+            width: 100%;
+            overflow: hidden; /* Ensures any overflowing content is hidden */
+        }
+
+        header img {
+            width: 100%;
+            height: auto; /* Maintains the aspect ratio */
+        }
+
+}
+.topnav {
+  overflow: hidden;
+  background-color: #FF3399;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.topnav a {
+  float: left;
+  color: #FFB6C1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #D80073;
+  color: #White
+}
+
+.topnav a.active {
+  background-color: #FF3399;
+  color: #White;
+}
+
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+
